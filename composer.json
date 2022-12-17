@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "sabinico/laravel-battlenet-package",
+    "description": "Package for Battle.Net API integration with Laravel",
     "keywords": [
-        ":vendor_name",
+        "sabinico",
         "laravel",
-        ":package_slug"
+        "laravel-battlenet-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/sabinico/laravel-battlenet-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Sabinico",
+            "email": "sabinico@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Sabinico\\BattleNetAPI\\": "src",
+            "Sabinico\\BattleNetAPI\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Sabinico\\BattleNetAPI\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Sabinico\\BattleNetAPI\\BattleNetAPIServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "BattleNetAPI": "Sabinico\\BattleNetAPI\\Facades\\BattleNetAPI"
             }
         }
     },

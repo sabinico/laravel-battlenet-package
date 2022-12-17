@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Sabinico\BattleNetAPI\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BattleNetAPICommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-battlenet-package';
 
     public $description = 'My command';
 
