@@ -2,9 +2,9 @@
 
 namespace Sabinico\BattleNetAPI;
 
+use Sabinico\BattleNetAPI\Commands\BattleNetAPICommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Sabinico\BattleNetAPI\Commands\BattleNetAPICommand;
 
 class BattleNetAPIServiceProvider extends PackageServiceProvider
 {
